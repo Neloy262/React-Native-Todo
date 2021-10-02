@@ -17,7 +17,7 @@ const InputText = (props) => {
       <View style={styles.container}>
         <TextInput
           style={styles.input}
-          placeholder="Enter text"
+          placeholder="Enter Text"
           onChangeText={props.handleInput}
           value={props.todo}
         />
